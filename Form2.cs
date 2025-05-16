@@ -18,6 +18,9 @@ namespace pr_4_git_
             Label lbl = new Label();
             lbl.Text = "Это вторая форма!";
             this.Controls.Add(lbl);
+            TextBox txtBox = new TextBox();
+            txtBox.Location = new System.Drawing.Point(10, 50);
+            this.Controls.Add(txtBox);
         }
     }
 }
