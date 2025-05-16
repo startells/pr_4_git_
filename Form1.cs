@@ -20,10 +20,5 @@ namespace pr_4_git_
             btn.Click += (s, e) => { new Form2().Show(); };
             this.Controls.Add(btn);
         }
-
-        private void Form1_Load(object sender, EventArgs e)
-        {
-
-        }
     }
 }
