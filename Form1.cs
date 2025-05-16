@@ -15,6 +15,15 @@ namespace pr_4_git_
         public Form1()
         {
             InitializeComponent();
+            Button btn = new Button();
+            btn.Text = "Перейти на форму";
+            btn.Click += (s, e) => { new Form2().Show(); };
+            this.Controls.Add(btn);
+        }
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }
