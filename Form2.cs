@@ -15,6 +15,9 @@ namespace pr_4_git_
         public Form2()
         {
             InitializeComponent();
+            Label lbl = new Label();
+            lbl.Text = "Это вторая форма!";
+            this.Controls.Add(lbl);
         }
     }
 }
